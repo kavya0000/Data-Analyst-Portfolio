@@ -105,24 +105,28 @@
 
 
 **\*\*Chart 1 — Category Performance \& Sales Overview:\*\***
+![Chart 1](screenshots/chart_1.png)
 
 ** **
 
 
 
 **\*\*Chart 2 — Discount Percentage \& Pricing Distribution:\*\***
+![Chart 2](screenshots/chart_2.png)
 
 ** **
 
 
 
 **\*\*Chart 3 — Customer Ratings vs. Review Volume:\*\***
+![Chart 3](screenshots/chart_3.png)
 
 ** **
 
 
 
 **\*\*Chart 4 — Consolidated Sales Analysis Dashboard:\*\***
+![Chart 4](screenshots/chart_4.png)
 
 ** **
 

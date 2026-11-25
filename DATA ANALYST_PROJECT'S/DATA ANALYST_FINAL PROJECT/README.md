@@ -117,66 +117,77 @@
 
 
 **\*\*Visualization 1 — Patient Demographics \& Age Distribution:\*\***
+![Chart 1](screenshots/chart_1.png)
 
 ** **
 
 
 
 **\*\*Visualization 2 — Medical Condition Breakdown:\*\***
+![Chart 2](screenshots/chart_2.png)
 
 ** **
 
 
 
 **\*\*Visualization 3 — Billing Amount Distribution:\*\***
+![Chart 3](screenshots/chart_3.png)
 
 ** **
 
 
 
 **\*\*Visualization 4 — Annual Admission Trends (2019–2024):\*\***
+![Chart 4](screenshots/chart_4.png)
 
 ** **
 
 
 
 **\*\*Visualization 5 — Billing by Medical Condition:\*\***
+![Chart 5](screenshots/chart_5.png)
 
 ** **
 
 
 
 **\*\*Visualization 6 — Gender vs. Medical Condition Comparison:\*\***
+![Chart 6](screenshots/chart_6.png)
 
 ** **
 
 
 
 **\*\*Visualization 7 — Admission Type \& Insurance Analysis:\*\***
+![Chart 7](screenshots/chart_7.png)
 
 ** **
 
 
 
 **\*\*Visualization 8 — Medication \& Test Results Overview:\*\***
+![Chart 8](screenshots/chart_8.png)
 
 ** **
 
 
 
 **\*\*Visualization 9 — Multi-Variable Correlation \& Trends:\*\***
+![Chart 9](screenshots/chart_9.png)
 
 ** **
 
 
 
 **\*\*Visualization 10 — Hospital \& Billing Patterns:\*\***
+![Chart 10](screenshots/chart_10.png)
 
 ** **
 
 
 
 **\*\*Visualization 11 — Summary Analytical Dashboard:\*\***
+![Chart 11](screenshots/chart_11.png)
 
 ** **
 

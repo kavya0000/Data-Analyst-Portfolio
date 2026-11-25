@@ -117,30 +117,35 @@
 
 
 **\*\*Chart 1 — Investment Avenue Comparison:\*\***
+![Chart 1](screenshots/chart_1.png)
 
 ** **
 
 
 
 **\*\*Chart 2 — Investor Demographics \& Preferences:\*\***
+![Chart 2](screenshots/chart_2.png)
 
 ** **
 
 
 
 **\*\*Chart 3 — Savings Objectives \& Expected Returns:\*\***
+![Chart 3](screenshots/chart_3.png)
 
 ** **
 
 
 
 **\*\*Chart 4 — Financial Trend \& Forecasting Output:\*\***
+![Chart 4](screenshots/chart_4.png)
 
 ** **
 
 
 
 **\*\*Chart 5 — Portfolio Distribution Summary:\*\***
+![Chart 5](screenshots/chart_5.png)
 
 ** **
 

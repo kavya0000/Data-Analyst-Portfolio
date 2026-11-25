@@ -109,12 +109,14 @@
 
 
 **\*\*Chart 1 — Customer Cluster \& Segment Distribution:\*\***
+![Chart 1](screenshots/chart_1.png)
 
 ** **
 
 
 
 **\*\*Chart 2 — Customer Lifetime Value (CLV) \& Prediction Analysis:\*\***
+![Chart 2](screenshots/chart_2.png)
 
 ** **
 
