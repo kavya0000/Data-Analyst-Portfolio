@@ -1,219 +1,219 @@
-**#### Healthcare Data Analysis \& Transformation**
+#### Healthcare Data Analysis \& Transformation
 
 
 
-**\*\*Data Analytics Capstone | Final Project\*\* | \*\*Analyst:\*\* Poleboina Kavya **
+\*\*Data Analytics Capstone | Final Project\*\* | \*\*Analyst:\*\* Poleboina Kavya
 
 
 
-**#### Project overview**
+#### Project overview
 
 
 
-**This project takes a raw 55,000+ record healthcare patient dataset and transforms it into a clean, analysis-ready file (healthcare\_data\_transformed.csv). The notebook audits data quality issues, standardizes mixed-case patient names and date formats, engineers admission-year and billing metrics, and explores patient demographics, medical conditions, and hospital billing patterns across 11 visualizations. **
+This project takes a raw 55,000+ record healthcare patient dataset and transforms it into a clean, analysis-ready file (healthcare\_data\_transformed.csv). The notebook audits data quality issues, standardizes mixed-case patient names and date formats, engineers admission-year and billing metrics, and explores patient demographics, medical conditions, and hospital billing patterns across 11 visualizations.
 
 
 
-**#### Dataset**
+#### Dataset
 
 
 
-**\* \*\*File:\*\* healthcare\_dataset.csv.zip (54,966 clean patient records, 15 columns)**
+\* \*\*File:\*\* healthcare\_dataset.csv.zip (54,966 clean patient records, 15 columns)
 
-**\* \*\*Key Fields:\*\* Name, Age, Gender, Blood Type, Medical Condition, Date of Admission, Doctor, Hospital, Insurance Provider, Billing Amount, Room Number, Admission Type, Discharge Date, Medication, Test Results**
+\* \*\*Key Fields:\*\* Name, Age, Gender, Blood Type, Medical Condition, Date of Admission, Doctor, Hospital, Insurance Provider, Billing Amount, Room Number, Admission Type, Discharge Date, Medication, Test Results
 
 
 
-**#### Tech stack**
+#### Tech stack
 
 
 
-**Python, pandas, NumPy, Matplotlib, Seaborn, Google Colab / Jupyter Notebook **
+Python, pandas, NumPy, Matplotlib, Seaborn, Google Colab / Jupyter Notebook
 
 
 
-**#### What the notebook does**
+#### What the notebook does
 
 
 
-**StepWhat was done**
+StepWhat was done
 
-**\*\*1. Importing data\*\***
+\*\*1. Importing data\*\*
 
-**Loaded healthcare\_dataset.csv and inspected schema, data types, and sample records**
+Loaded healthcare\_dataset.csv and inspected schema, data types, and sample records
 
-**\*\*2. Cleaning the data\*\***
+\*\*2. Cleaning the data\*\*
 
-**Removed duplicate entries, standardized inconsistent text casing (e.g., patient names), and checked missing values**
+Removed duplicate entries, standardized inconsistent text casing (e.g., patient names), and checked missing values
 
-**\*\*3. Data transformation\*\***
+\*\*3. Data transformation\*\*
 
-**Parsed admission/discharge dates, extracted Admission\_Year (2019–2024), computed summary metrics, and exported healthcare\_data\_transformed.csv**
+Parsed admission/discharge dates, extracted Admission\_Year (2019–2024), computed summary metrics, and exported healthcare\_data\_transformed.csv
 
-**\*\*4. Statistical analysis\*\***
+\*\*4. Statistical analysis\*\*
 
-**Calculated mean, median, and standard deviation for Age (mean 51.54 yrs) and Billing Amount (mean $25,544.31)**
+Calculated mean, median, and standard deviation for Age (mean 51.54 yrs) and Billing Amount (mean $25,544.31)
 
-**\*\*5. Exploratory data analysis\*\***
+\*\*5. Exploratory data analysis\*\*
 
-**Grouped records by Gender, Medical Condition, Admission\_Year, and Insurance Provider**
+Grouped records by Gender, Medical Condition, Admission\_Year, and Insurance Provider
 
-**\*\*6. Data visualization\*\***
+\*\*6. Data visualization\*\*
 
-**Generated 11 distribution, trend, and comparative plots across demographics and hospital billing**
+Generated 11 distribution, trend, and comparative plots across demographics and hospital billing
 
 
 
-**#### Results: key metrics \& distributions**
+#### Results: key metrics \& distributions
 
 
 
-**MeasureValue**
+MeasureValue
 
-**\*\*Clean patient records\*\***
+\*\*Clean patient records\*\*
 
-**54,966**
+54,966
 
-**\*\*Gender split\*\***
+\*\*Gender split\*\*
 
-**Male: 27,496 (50.02%) · Female: 27,470 (49.98%)**
+Male: 27,496 (50.02%) · Female: 27,470 (49.98%)
 
-**\*\*Mean / Median Age\*\***
+\*\*Mean / Median Age\*\*
 
-**51.54 years / 52.00 years (SD: 19.61)**
+51.54 years / 52.00 years (SD: 19.61)
 
-**\*\*Mean / Median Billing Amount\*\***
+\*\*Mean / Median Billing Amount\*\*
 
-**$25,544.31 / $25,542.75 (SD: $14,208.41)**
+$25,544.31 / $25,542.75 (SD: $14,208.41)
 
-**\*\*Average Billing by Gender\*\***
+\*\*Average Billing by Gender\*\*
 
-**Male: $25,614.45 · Female: $25,474.10**
+Male: $25,614.45 · Female: $25,474.10
 
-**\*\*Top Medical Conditions\*\***
+\*\*Top Medical Conditions\*\*
 
-**Arthritis (9,218), Diabetes (9,216), Hypertension (9,151), Obesity (9,146), Cancer (9,140)**
+Arthritis (9,218), Diabetes (9,216), Hypertension (9,151), Obesity (9,146), Cancer (9,140)
 
-**\*\*Peak Admission Year\*\***
+\*\*Peak Admission Year\*\*
 
-**2020 (9,507 admissions), followed by 2022 (9,327) and 2023 (9,318)**
+2020 (9,507 admissions), followed by 2022 (9,327) and 2023 (9,318)
 
 
 
-**#### Key decisions and why**
+#### Key decisions and why
 
 
 
-**\* \*\*Text \& date standardization first:\*\* Raw patient names contained irregular capitalization (e.g., Bobby JacksOn) and string dates; normalizing them early prevented grouping fragmentation.**
+\* \*\*Text \& date standardization first:\*\* Raw patient names contained irregular capitalization (e.g., Bobby JacksOn) and string dates; normalizing them early prevented grouping fragmentation.
 
-**\* \*\*Mean vs. median verification:\*\* Checking both mean ($25,544.31) and median ($25,542.75) billing confirmed a symmetric distribution across genders despite a few negative billing adjustments.**
+\* \*\*Mean vs. median verification:\*\* Checking both mean ($25,544.31) and median ($25,542.75) billing confirmed a symmetric distribution across genders despite a few negative billing adjustments.
 
-**\* \*\*Saving transformed output:\*\* Exporting healthcare\_data\_transformed.csv separates data preparation from downstream visualization and reporting.**
+\* \*\*Saving transformed output:\*\* Exporting healthcare\_data\_transformed.csv separates data preparation from downstream visualization and reporting.
 
 
 
-**#### Screenshots**
+#### Screenshots
 
 
 
-**\*\*Visualization 1 — Patient Demographics \& Age Distribution:\*\***
+\*\*Visualization 1 — Patient Demographics \& Age Distribution:\*\*
 ![Chart 1](screenshots/chart_1.png)
 
-** **
 
 
 
-**\*\*Visualization 2 — Medical Condition Breakdown:\*\***
+
+\*\*Visualization 2 — Medical Condition Breakdown:\*\*
 ![Chart 2](screenshots/chart_2.png)
 
-** **
 
 
 
-**\*\*Visualization 3 — Billing Amount Distribution:\*\***
+
+\*\*Visualization 3 — Billing Amount Distribution:\*\*
 ![Chart 3](screenshots/chart_3.png)
 
-** **
 
 
 
-**\*\*Visualization 4 — Annual Admission Trends (2019–2024):\*\***
+
+\*\*Visualization 4 — Annual Admission Trends (2019–2024):\*\*
 ![Chart 4](screenshots/chart_4.png)
 
-** **
 
 
 
-**\*\*Visualization 5 — Billing by Medical Condition:\*\***
+
+\*\*Visualization 5 — Billing by Medical Condition:\*\*
 ![Chart 5](screenshots/chart_5.png)
 
-** **
 
 
 
-**\*\*Visualization 6 — Gender vs. Medical Condition Comparison:\*\***
+
+\*\*Visualization 6 — Gender vs. Medical Condition Comparison:\*\*
 ![Chart 6](screenshots/chart_6.png)
 
-** **
 
 
 
-**\*\*Visualization 7 — Admission Type \& Insurance Analysis:\*\***
+
+\*\*Visualization 7 — Admission Type \& Insurance Analysis:\*\*
 ![Chart 7](screenshots/chart_7.png)
 
-** **
 
 
 
-**\*\*Visualization 8 — Medication \& Test Results Overview:\*\***
+
+\*\*Visualization 8 — Medication \& Test Results Overview:\*\*
 ![Chart 8](screenshots/chart_8.png)
 
-** **
 
 
 
-**\*\*Visualization 9 — Multi-Variable Correlation \& Trends:\*\***
+
+\*\*Visualization 9 — Multi-Variable Correlation \& Trends:\*\*
 ![Chart 9](screenshots/chart_9.png)
 
-** **
 
 
 
-**\*\*Visualization 10 — Hospital \& Billing Patterns:\*\***
+
+\*\*Visualization 10 — Hospital \& Billing Patterns:\*\*
 ![Chart 10](screenshots/chart_10.png)
 
-** **
 
 
 
-**\*\*Visualization 11 — Summary Analytical Dashboard:\*\***
+
+\*\*Visualization 11 — Summary Analytical Dashboard:\*\*
 ![Chart 11](screenshots/chart_11.png)
 
-** **
 
 
 
-**#### Files in this folder**
+
+#### Files in this folder
 
 
 
-**\* Final\_Project.ipynb: complete notebook with code, statistical summaries, and outputs**
+\* Final\_Project.ipynb: complete notebook with code, statistical summaries, and outputs
 
-**\* Final Project - Colab.pdf: exported PDF report of the executed notebook**
+\* Final Project - Colab.pdf: exported PDF report of the executed notebook
 
-**\* healthcare\_dataset.csv.zip: compressed raw healthcare dataset**
+\* healthcare\_dataset.csv.zip: compressed raw healthcare dataset
 
-**\* screenshots/: extracted chart images (chart\_1.png – chart\_11.png)**
-
-
-
-**#### How to run**
+\* screenshots/: extracted chart images (chart\_1.png – chart\_11.png)
 
 
 
-**1. Install the libraries: pip install pandas numpy matplotlib seaborn jupyter**
+#### How to run
 
-**2. Extract healthcare\_dataset.csv.zip in the same folder as Final\_Project.ipynb.**
 
-**3. Open Final\_Project.ipynb in Jupyter Notebook or Google Colab and choose \*\*Run All\*\*.**
+
+1. Install the libraries: pip install pandas numpy matplotlib seaborn jupyter
+
+2. Extract healthcare\_dataset.csv.zip in the same folder as Final\_Project.ipynb.
+
+3. Open Final\_Project.ipynb in Jupyter Notebook or Google Colab and choose \*\*Run All\*\*.
 

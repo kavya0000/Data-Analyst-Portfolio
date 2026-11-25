@@ -1,177 +1,177 @@
-**#### Financial Data Analysis \& Forecasting**
+#### Financial Data Analysis \& Forecasting
 
 
 
-**\*\*Financial Analytics | Project 3\*\* | \*\*Analyst:\*\* Poleboina Kavya **
+\*\*Financial Analytics | Project 3\*\* | \*\*Analyst:\*\* Poleboina Kavya
 
 
 
-**#### Project overview**
+#### Project overview
 
 
 
-**This project explores investor behavior, portfolio preferences, and savings objectives using financial survey data (Finance\_data.csv). The notebook validates data completeness, ranks preferred investment avenues, applies forecasting techniques, and builds an interactive Plotly Dash dashboard to communicate financial insights. **
+This project explores investor behavior, portfolio preferences, and savings objectives using financial survey data (Finance\_data.csv). The notebook validates data completeness, ranks preferred investment avenues, applies forecasting techniques, and builds an interactive Plotly Dash dashboard to communicate financial insights.
 
 
 
-**#### Dataset**
+#### Dataset
 
 
 
-**\* \*\*File:\*\* Finance\_data.csv (40 investor records, 24 columns)**
+\* \*\*File:\*\* Finance\_data.csv (40 investor records, 24 columns)
 
-**\* \*\*Key Fields:\*\* gender, age, Investment\_Avenues, Mutual\_Funds, Equity\_Market, Debentures, Government\_Bonds, Fixed\_Deposits, PPF, Gold, Objective, Purpose, Duration, Invest\_Monitor, Expect, Source**
+\* \*\*Key Fields:\*\* gender, age, Investment\_Avenues, Mutual\_Funds, Equity\_Market, Debentures, Government\_Bonds, Fixed\_Deposits, PPF, Gold, Objective, Purpose, Duration, Invest\_Monitor, Expect, Source
 
 
 
-**#### Tech stack**
+#### Tech stack
 
 
 
-**Python, pandas, NumPy, Matplotlib, Seaborn, Plotly Dash, scikit-learn, Google Colab / Jupyter Notebook **
+Python, pandas, NumPy, Matplotlib, Seaborn, Plotly Dash, scikit-learn, Google Colab / Jupyter Notebook
 
 
 
-**#### What the notebook does**
+#### What the notebook does
 
 
 
-**StepWhat was done**
+StepWhat was done
 
-**\*\*1. Data cleaning\*\***
+\*\*1. Data cleaning\*\*
 
-**Verified 40 rows and 24 columns with 0 missing values and 0 duplicate records**
+Verified 40 rows and 24 columns with 0 missing values and 0 duplicate records
 
-**\*\*2. Trend analysis (EDA)\*\***
+\*\*2. Trend analysis (EDA)\*\*
 
-**Aggregated total investment scores across 7 avenues and segmented preferences by age, gender, and duration**
+Aggregated total investment scores across 7 avenues and segmented preferences by age, gender, and duration
 
-**\*\*3. Data visualization\*\***
+\*\*3. Data visualization\*\*
 
-**Created 5 comparative charts highlighting avenue popularity, return expectations, and investor demographics**
+Created 5 comparative charts highlighting avenue popularity, return expectations, and investor demographics
 
-**\*\*4. Forecasting\*\***
+\*\*4. Forecasting\*\*
 
-**Modeled projected investment trends based on historical allocation patterns**
+Modeled projected investment trends based on historical allocation patterns
 
-**\*\*5. Interactive dashboard\*\***
+\*\*5. Interactive dashboard\*\*
 
-**Built an interactive web dashboard using Plotly Dash for dynamic exploration**
+Built an interactive web dashboard using Plotly Dash for dynamic exploration
 
-**\*\*6. Insights generation\*\***
+\*\*6. Insights generation\*\*
 
-**Summarized overall portfolio health ($1,120.00 total / $28.00 average per respondent) and top asset classes**
+Summarized overall portfolio health ($1,120.00 total / $28.00 average per respondent) and top asset classes
 
 
 
-**#### Results: investment avenue rankings**
+#### Results: investment avenue rankings
 
 
 
-**RankInvestment AvenueTotal Score / Allocation**
+RankInvestment AvenueTotal Score / Allocation
 
-**\*\*1\*\***
+\*\*1\*\*
 
-**\*\*Gold\*\*239**
+\*\*Gold\*\*239
 
-**\*\*2\*\***
+\*\*2\*\*
 
-**\*\*Debentures\*\*230**
+\*\*Debentures\*\*230
 
-**\*\*3\*\***
+\*\*3\*\*
 
-**\*\*Government Bonds\*\*186**
+\*\*Government Bonds\*\*186
 
-**\*\*4\*\***
+\*\*4\*\*
 
-**\*\*Fixed Deposits\*\*143**
+\*\*Fixed Deposits\*\*143
 
-**\*\*5\*\***
+\*\*5\*\*
 
-**\*\*Equity Market\*\*139**
+\*\*Equity Market\*\*139
 
-**\*\*6\*\***
+\*\*6\*\*
 
-**\*\*Mutual Funds\*\*102**
+\*\*Mutual Funds\*\*102
 
-**\*\*7\*\***
+\*\*7\*\*
 
-**\*\*PPF (Public Provident Fund)\*\*81**
+\*\*PPF (Public Provident Fund)\*\*81
 
 
 
-**#### Key decisions and why**
+#### Key decisions and why
 
 
 
-**\* \*\*Complete-case verification:\*\* Confirmed 0 nulls and 0 duplicates across all 24 survey attributes before computing avenue totals so every respondent carried equal weight.**
+\* \*\*Complete-case verification:\*\* Confirmed 0 nulls and 0 duplicates across all 24 survey attributes before computing avenue totals so every respondent carried equal weight.
 
-**\* \*\*Comparing fixed-income vs. market-linked assets:\*\* Ranking traditional safe-haven assets (Gold: 239, Debentures: 230, Government Bonds: 186) alongside Equity (139) and Mutual Funds (102) clearly highlights investor risk aversion.**
+\* \*\*Comparing fixed-income vs. market-linked assets:\*\* Ranking traditional safe-haven assets (Gold: 239, Debentures: 230, Government Bonds: 186) alongside Equity (139) and Mutual Funds (102) clearly highlights investor risk aversion.
 
-**\* \*\*Interactive Dash integration:\*\* Paired static notebook charts with a Plotly Dash layout so stakeholders can filter investment behavior interactively.**
+\* \*\*Interactive Dash integration:\*\* Paired static notebook charts with a Plotly Dash layout so stakeholders can filter investment behavior interactively.
 
 
 
-**#### Screenshots**
+#### Screenshots
 
 
 
-**\*\*Chart 1 — Investment Avenue Comparison:\*\***
+\*\*Chart 1 — Investment Avenue Comparison:\*\*
 ![Chart 1](screenshots/chart_1.png)
 
-** **
 
 
 
-**\*\*Chart 2 — Investor Demographics \& Preferences:\*\***
+
+\*\*Chart 2 — Investor Demographics \& Preferences:\*\*
 ![Chart 2](screenshots/chart_2.png)
 
-** **
 
 
 
-**\*\*Chart 3 — Savings Objectives \& Expected Returns:\*\***
+
+\*\*Chart 3 — Savings Objectives \& Expected Returns:\*\*
 ![Chart 3](screenshots/chart_3.png)
 
-** **
 
 
 
-**\*\*Chart 4 — Financial Trend \& Forecasting Output:\*\***
+
+\*\*Chart 4 — Financial Trend \& Forecasting Output:\*\*
 ![Chart 4](screenshots/chart_4.png)
 
-** **
 
 
 
-**\*\*Chart 5 — Portfolio Distribution Summary:\*\***
+
+\*\*Chart 5 — Portfolio Distribution Summary:\*\*
 ![Chart 5](screenshots/chart_5.png)
 
-** **
 
 
 
-**#### Files in this folder**
+
+#### Files in this folder
 
 
 
-**\* FINANCIAL\_DATA\_ANALYSIS\_\&\_FORECASTING.ipynb: complete notebook with EDA, forecasting, and Dash dashboard code**
+\* FINANCIAL\_DATA\_ANALYSIS\_\&\_FORECASTING.ipynb: complete notebook with EDA, forecasting, and Dash dashboard code
 
-**\* FINANCIAL DATA ANALYSIS \& FORECASTING.ipynb - Colab.pdf: exported PDF report of the executed notebook**
+\* FINANCIAL DATA ANALYSIS \& FORECASTING.ipynb - Colab.pdf: exported PDF report of the executed notebook
 
-**\* Finance\_data.csv: raw financial survey dataset**
+\* Finance\_data.csv: raw financial survey dataset
 
-**\* screenshots/: extracted chart images (chart\_1.png – chart\_5.png)**
-
-
-
-**#### How to run**
+\* screenshots/: extracted chart images (chart\_1.png – chart\_5.png)
 
 
 
-**1. Install the libraries: pip install pandas numpy matplotlib seaborn scikit-learn dash jupyter**
+#### How to run
 
-**2. Keep Finance\_data.csv in the same folder as FINANCIAL\_DATA\_ANALYSIS\_\&\_FORECASTING.ipynb.**
 
-**3. Open FINANCIAL\_DATA\_ANALYSIS\_\&\_FORECASTING.ipynb in Jupyter Notebook or Google Colab and choose \*\*Run All\*\*.**
+
+1. Install the libraries: pip install pandas numpy matplotlib seaborn scikit-learn dash jupyter
+
+2. Keep Finance\_data.csv in the same folder as FINANCIAL\_DATA\_ANALYSIS\_\&\_FORECASTING.ipynb.
+
+3. Open FINANCIAL\_DATA\_ANALYSIS\_\&\_FORECASTING.ipynb in Jupyter Notebook or Google Colab and choose \*\*Run All\*\*.
 
