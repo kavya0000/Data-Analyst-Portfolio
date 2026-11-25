@@ -1,35 +1,128 @@
-Data Analyst Portfolio 
+**#### Data Analyst Portfolio**
 
-Welcome to my Data Analytics repository! This portfolio showcases end-to-end data analysis, customer segmentation, sales dashboarding, and financial forecasting projects built using Python, Pandas, Matplotlib/Seaborn, Scikit-learn, and Google Colab. 
 
-FEATURED PROJECTS 
 
-1. Healthcare Data Analysis (Final Project)
+**\*\*Analyst:\*\* Poleboina Kavya**
 
-* Folder: DATA ANALYST_FINAL PROJECT
-* Files: Final_Project.ipynb, Final Project - Colab.pdf, healthcare_dataset.csv.zip
-* Overview: Exploratory data analysis (EDA) on healthcare records to uncover patient trends, treatment patterns, and key operational insights.
+**\*\*Domain:\*\* Data Analytics · Customer Segmentation · Sales Dashboarding · Financial Forecasting**
 
-1. Sales Analysis & E-Commerce Dashboard
+**\*\*Tech Stack:\*\* Python · pandas · NumPy · Matplotlib · Seaborn · scikit-learn · Plotly Dash · Google Colab · Jupyter Notebook **
 
-* Folder: DATA ANALYST_PROJECT 1
-* Files: Sales_Analysis_Dashboard.ipynb, Sales Analysis Dashboard.ipynb - Colab.pdf, amazon.csv, data.zip
-* Overview: Comprehensive retail and Amazon sales analysis tracking revenue trends, top-performing categories, and product performance metrics.
 
-1. Customer Segmentation
 
-* Folder: DATA ANALYST_PROJECT 2
-* Files: Customer_Segmentation.ipynb, Customer Segmentation.ipynb - Colab.pdf
-* Overview: Behavioral and demographic clustering to identify distinct customer groups and support targeted marketing strategies.
+**This repository showcases four end-to-end Data Analytics and Machine Learning projects. Each project folder contains the runnable Jupyter/Colab notebook, an exported PDF report, the dataset, extracted output chart screenshots, and a detailed case-study README.md. **
 
-1. Financial Data Analysis & Forecasting
 
-* Folder: DATA ANALYST_PROJECT 3
-* Files: FINANCIAL_DATA_ANALYSIS_&_FORECASTING.ipynb, FINANCIAL DATA ANALYSIS & FORECASTING.ipynb - Colab.pdf, Finance_data.csv
-* Overview: Historical financial trend evaluation and predictive forecasting to support data-driven financial planning.
 
-TOOLS & TECHNOLOGIES 
+**#### Projects Summary**
 
-* Languages: Python
-* Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-* Environment: Google Colab / Jupyter Notebooks
+
+
+**#ProjectDataset ScaleKey Methods \& ResultsFolder**
+
+**\*\*1\*\***
+
+**\*\*Healthcare Data Analysis \& Transformation\*\*54,966 patient records (15 cols)Data cleaning, standardization, statistical profiling ($25,544.31 avg billing), 11 EDA visualizationsDATA ANALYST\_FINAL PROJECT**
+
+**\*\*2\*\***
+
+**\*\*Sales Analysis \& E-Commerce Dashboard\*\*1,465 Amazon products + retail salesPrice/discount cleaning, category revenue rollups, multi-chart KPI dashboardDATA ANALYST\_PROJECT 1**
+
+**\*\*3\*\***
+
+**\*\*Customer Segmentation \& CLV Prediction\*\*Invoice-level retail transactions4-tier behavioral clustering + CLV prediction (\*\*R² = 0.99\*\*, \*\*RMSE = 308.45\*\*)DATA ANALYST\_PROJECT 2**
+
+**\*\*4\*\***
+
+**\*\*Financial Data Analysis \& Forecasting\*\*40 investor profiles (24 cols)Investment avenue ranking (Gold #1, Debentures #2), trend forecasting, Plotly Dash appDATA ANALYST\_PROJECT 3**
+
+
+
+**#### Repository Structure**
+
+
+
+**Show Code**
+
+
+
+**Hide Code**
+
+
+
+**Download diagram SVG**
+
+
+
+**ASCII**
+
+
+
+**Data-Analyst-Portfolio/**
+
+**├── DATA ANALYST\_PROJECT'S/**
+
+**│   ├── DATA ANALYST\_FINAL PROJECT/   # Healthcare EDA \& Transformation (11 charts + README)**
+
+**│   ├── DATA ANALYST\_PROJECT 1/       # Sales Analysis \& E-Commerce Dashboard (4 charts + README)**
+
+**│   ├── DATA ANALYST\_PROJECT 2/       # Customer Segmentation \& CLV Prediction (2 charts + README)**
+
+**│   └── DATA ANALYST\_PROJECT 3/       # Financial Analysis \& Forecasting (5 charts + README)**
+
+**└── README.md**
+
+
+
+**Use code with caution.**
+
+
+
+**Copy code text to clipboard.**
+
+
+
+**#### How to Run Any Project**
+
+
+
+**1. Clone the repository: **
+
+
+
+**bash**
+
+
+
+**git clone https://github.com**
+
+**cd Data-Analyst-Portfolio**
+
+
+
+**Use code with caution.**
+
+
+
+**Copy code text to clipboard.**
+
+**2. Install required libraries: **
+
+
+
+**bash**
+
+
+
+**pip install pandas numpy matplotlib seaborn scikit-learn dash jupyter**
+
+
+
+**Use code with caution.**
+
+
+
+**Copy code text to clipboard.**
+
+**3. Navigate into any project folder inside DATA ANALYST\_PROJECT'S/, open the .ipynb file in \*\*Jupyter Notebook\*\* or \*\*Google Colab\*\*, and select \*\*Run All\*\*.**
+
