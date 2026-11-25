@@ -1,36 +1,52 @@
-**import os**
+**#### Data Analyst Portfolio**
 
 
 
-**base = "DATA ANALYST\_PROJECT'S"**
+**\*\*Analyst:\*\* Poleboina Kavya**
 
-**folders = \["DATA ANALYST\_FINAL PROJECT", "DATA ANALYST\_PROJECT 1", "DATA ANALYST\_PROJECT 2", "DATA ANALYST\_PROJECT 3"]**
-
-**bang = chr(33)**
+**\*\*Tech Stack:\*\* Python (pandas, NumPy, Matplotlib, Seaborn, scikit-learn, Plotly Dash), Google Colab, Jupyter Notebook **
 
 
 
-**for folder in folders:**
-
-&#x20;   **p = os.path.join(base, folder, "README.md")**
-
-&#x20;   **lines = open(p, encoding="utf-8").readlines()**
-
-&#x20;   **out, n = list(), 1**
-
-&#x20;   **for l in lines:**
-
-&#x20;       **out.append(l)**
-
-&#x20;       **if ("Visualization " in l or "Chart " in l) and "—" in l:**
-
-&#x20;           **out.append(f"{bang}\[Chart {n}](screenshots/chart\_{n}.png)\\n")**
-
-&#x20;           **n += 1**
-
-&#x20;   **open(p, "w", encoding="utf-8").writelines(out)**
-
-&#x20;   **print(f"Fixed {n-1} images in {folder}")**
+**This repository features four end-to-end data analytics and machine learning projects, complete with runnable notebooks, datasets, chart outputs, and detailed case studies: **
 
 
+
+**\* \*\*Healthcare Data Analysis \& Transformation:\*\* Cleans and profiles 54,966 patient records with 11 EDA visualizations.**
+
+**\* \*\*Sales Analysis \& E-Commerce Dashboard:\*\* Analyzes 1,465 Amazon products and retail sales via an interactive multi-chart KPI dashboard.**
+
+**\* \*\*Customer Segmentation \& CLV Prediction:\*\* Implements behavioral clustering and customer lifetime value prediction (R² = 0.99).**
+
+**\* \*\*Financial Data Analysis \& Forecasting:\*\* Ranks investment avenues and includes a trend-forecasting Plotly Dash application.**
+
+
+
+**#### Quick Start**
+
+
+
+**1. Clone the repository and install dependencies: **
+
+
+
+**bash**
+
+
+
+**git clone https://github.com/kavya0000/Data-Analyst-Portfolio.git**
+
+**cd Data-Analyst-Portfolio**
+
+**pip install pandas numpy matplotlib seaborn scikit-learn dash jupyter**
+
+
+
+**Use code with caution.**
+
+
+
+**Copy code text to clipboard.**
+
+**2. Open any notebook inside the project folders using Jupyter or Google Colab and run all cells.**
 
